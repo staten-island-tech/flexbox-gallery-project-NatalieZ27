@@ -6,18 +6,10 @@ body,
   box-sizing: border-box;
   font-size: 62.5%;
 }
-.parent {
-  font-size: 10px;
-}
-h2 {
-  margin: 1rem;
-}
-.px-size {
-  font-size: 20px;
-}
-.rem-size {
-  font-size: 2rem;
-}
-.em-size {
-  font-size: 5em;
+#main-header {
+  text-align: center;
+  margin-bottom: 100px;
+  font-size: 40px;
+  color: black;
+  font-weight: bold;
 }
