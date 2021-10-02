@@ -13,3 +13,15 @@ body,
   color: black;
   font-weight: bold;
 }
+{
+  display: flex;
+  text-align: center;
+  width: 20%;
+  margin: auto;
+  color: black;
+  border: solid red;
+  text size: 30rem;
+}
+h1{
+  
+}
