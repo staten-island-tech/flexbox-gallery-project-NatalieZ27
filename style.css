@@ -13,15 +13,18 @@ body,
   color: black;
   font-weight: bold;
 }
-{
+.container {
   display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
   text-align: center;
-  width: 20%;
-  margin: auto;
-  color: black;
-  border: solid red;
-  text size: 30rem;
 }
-h1{
-  
+
+.item {
+  border: solid black;
+  border-radius: 25px;
+  width: 30%;
+  margin-bottom: 5rem;
+  font-size: 4rem;
+  height: 50rem;
 }
