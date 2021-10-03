@@ -8,10 +8,14 @@ body,
 }
 #main-header {
   text-align: center;
-  margin-bottom: 100px;
-  font-size: 40px;
+  margin: 6rem;
+  margin-bottom: 10rem;
+  font-size: 10rem;
   color: black;
   font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .container {
   display: flex;
@@ -26,7 +30,8 @@ body,
   width: 30%;
   margin-bottom: 5rem;
   font-size: 4rem;
-  height: 40rem;
+  height: 44rem;
+  margin-top: 2rem;
 }
 img {
   width: 30rem;
@@ -34,3 +39,12 @@ img {
   object-fit: fill;
   padding-top: 1.5rem;
 }
+body {
+  background-color: #cac5bf;
+  font-family: "Lobster", cursive;
+}
+.item:hover {
+  box-shadow: 1rem 1rem 1rem black;
+  text-decoration: underline;
+}
+#main-header: hover;
