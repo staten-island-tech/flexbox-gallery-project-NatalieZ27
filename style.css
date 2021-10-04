@@ -16,6 +16,7 @@ body,
   display: flex;
   justify-content: center;
   align-items: center;
+  gap: 5rem;
 }
 .container {
   display: flex;
@@ -26,18 +27,21 @@ body,
 
 .item {
   border: solid black;
-  border-radius: 25px;
+  border-radius: 2rem;
   width: 30%;
   margin-bottom: 5rem;
   font-size: 4rem;
-  height: 44rem;
-  margin-top: 2rem;
+  height: 50rem;
+  margin-top: 3rem;
+  transition: transform 0.2s;
+  padding-top: 3rem;
 }
 img {
-  width: 30rem;
-  height: 38rem;
+  width: 80%;
+  height: 60%;
   object-fit: fill;
   padding-top: 1.5rem;
+  border-radius: 3.5rem;
 }
 body {
   background-color: #cac5bf;
@@ -47,4 +51,39 @@ body {
   box-shadow: 1rem 1rem 1rem black;
   text-decoration: underline;
 }
-#main-header: hover;
+.item:hover {
+  box-shadow: 1rem 1rem 1rem black;
+  text-decoration: underline;
+  background-color: #beb6b3;
+  transform: scale(1.05);
+}
+.zoom {
+  transition: transform 0.2s;
+}
+.zoom:hover {
+  transform: scale(1.15);
+}
+.text {
+  padding-top: 2.5rem;
+}
+#main-header:hover {
+  text-decoration: underline;
+  color: #ab7d58;
+}
+.rotate {
+  animation: rotation 4s infinite linear;
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
+.text {
+  padding-top: 2rem;
+}
+
+mina twice eyes wide open 910 × 1160 image
