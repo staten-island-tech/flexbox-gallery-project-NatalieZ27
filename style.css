@@ -10,7 +10,7 @@ body,
   text-align: center;
   margin: 6rem;
   margin-bottom: 10rem;
-  font-size: 25rem;
+  font-size: 2800%;
   color: black;
   font-weight: bold;
   align-items: center;
@@ -39,7 +39,7 @@ img {
   height: 60%;
   object-fit: fill;
   padding-top: 1.5rem;
-  border-radius: 3.5rem;
+  border-radius: 3.8rem;
   padding-bottom: 2rem;
   padding-top: 3rem;
 }
