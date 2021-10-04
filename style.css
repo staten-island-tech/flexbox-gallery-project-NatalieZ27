@@ -13,8 +13,6 @@ body,
   font-size: 20rem;
   color: black;
   font-weight: bold;
-  display: flex;
-  justify-content: center;
   align-items: center;
   gap: 5rem;
 }
