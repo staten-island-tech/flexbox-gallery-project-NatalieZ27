@@ -13,7 +13,6 @@ body,
   font-size: 2800%;
   color: black;
   font-weight: bold;
-  align-items: center;
   gap: 5rem;
 }
 .container {
@@ -39,7 +38,7 @@ img {
   height: 60%;
   object-fit: fill;
   padding-top: 1.5rem;
-  border-radius: 3.8rem;
+  border-radius: 3.5rem;
   padding-bottom: 2rem;
   padding-top: 3rem;
 }
