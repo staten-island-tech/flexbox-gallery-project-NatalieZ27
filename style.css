@@ -83,3 +83,22 @@ body {
 .text {
   padding-bottom: 1rem;
 }
+@media only screen and (max-width: 800px) {
+  body {
+    background-color: grey;
+  }
+  #main-header {
+    font-size: 10rem;
+  }
+}
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: honeydew;
+  }
+  .item:hover {
+    background-color: ghostwhite;
+  }
+  .item {
+    height: 20%;
+  }
+}
