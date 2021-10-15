@@ -49,23 +49,20 @@ body {
 .item:hover {
   box-shadow: 1rem 1rem 1rem black;
   text-decoration: underline;
-}
-.item:hover {
-  box-shadow: 1rem 1rem 1rem black;
-  text-decoration: underline;
   background-color: #beb6b3;
   transform: scale(1.05);
 }
-.zoom {
+
+.item-zoom {
   transition: transform 0.2s;
 }
-.zoom:hover {
+.item-zoom:hover {
   transform: scale(1.15);
 }
-.text {
+.item-text {
   padding-top: 2.5rem;
 }
-#name:hover {
+#header-text:hover {
   color: #ab7d58;
 }
 .rotate {
@@ -80,12 +77,17 @@ body {
     transform: rotate(359deg);
   }
 }
-.text {
+.item-text {
   padding-bottom: 1rem;
+}
+@media only screen and (max-width: 1280px) {
+  body {
+    background-color: rgba(216, 208, 197, 0.664);
+  }
 }
 @media only screen and (max-width: 800px) {
   body {
-    background-color: grey;
+    background-color: rgb(144, 137, 137);
   }
   #main-header {
     font-size: 10rem;
