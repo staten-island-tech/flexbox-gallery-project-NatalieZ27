@@ -102,5 +102,6 @@ body {
   }
   .item {
     height: 20%;
+    width: 80%;
   }
 }
