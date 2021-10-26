@@ -27,7 +27,6 @@ body,
   border-radius: 2rem;
   width: 27%;
   margin-bottom: 5rem;
-  font-size: 4rem;
   height: 50%;
   margin-top: 3rem;
   transition: transform 0.2s;
@@ -61,6 +60,7 @@ body {
 }
 .item-text {
   padding-top: 2.5rem;
+  font-size: 4rem;
 }
 #header-text:hover {
   color: #ab7d58;
